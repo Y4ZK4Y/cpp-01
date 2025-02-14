@@ -2,8 +2,8 @@
 #include <iostream>
 
 Zombie::Zombie(std::string name): name(name) {
-
 }
+
 Zombie::~Zombie() {
     std::cout << this->name << " is destroyed." << std::endl;
 }

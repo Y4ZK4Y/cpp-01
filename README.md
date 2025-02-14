@@ -14,7 +14,7 @@ This repository contains my solutions for the C++ Module 01 exercises, focusing 
 
 *   **Implementation:**
     *   Implemented `zombieHorde()` to allocate an array of `Zombie` objects on the heap.
-    *   Initialized each zombie with the provided name.
+    *   Initialized each zombie with an untitled name.
     *   Included tests to demonstrate the functionality and ensure proper memory cleanup.
 
 ## Exercise 02: HI THIS IS BRAIN
