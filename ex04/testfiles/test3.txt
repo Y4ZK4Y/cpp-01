@@ -1,0 +1,4 @@
+This file has the word "test" at the beginning and end.
+test
+This is a test.
+test

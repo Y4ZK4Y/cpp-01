@@ -1,0 +1,2 @@
+This file has a long string to be replaced with a shorter one.
+This is a very long string that needs to be replaced.
