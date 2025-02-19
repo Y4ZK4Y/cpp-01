@@ -1,4 +1,4 @@
-NAME := harl2.0
+NAME := harl2
 
 SRC := Harl.cpp main.cpp
 OBJ := $(SRC:.cpp=.o)
