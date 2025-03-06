@@ -1,7 +1,3 @@
-// #include <iostream>
-// #include <string>
-// #include <fstream>
-
 #include "parseInput.h"
 #include "sed.h"
 
@@ -18,8 +14,6 @@ int main(int argc, char **argv)
     // goodOlSed("test3.txt", "test", "");
     // goodOlSed("test4.txt", "long string", "short");
     // goodOlSed("test5.txt", "a", "b");
-
-
 
     return (0);
 }

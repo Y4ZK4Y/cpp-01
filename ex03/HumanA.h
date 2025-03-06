@@ -5,7 +5,6 @@
 #include <string>
 
 // HumanA always has a weapon
-
 class HumanA {
 private:
     std::string name;

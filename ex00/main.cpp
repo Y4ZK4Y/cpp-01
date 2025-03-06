@@ -5,7 +5,7 @@ int main() {
 
     // test newZombie
     std::cout << "Creating a zombie on the heap: " << std::endl;
-    Zombie* hombie = newZombie("Hombie");
+    Zombie  *hombie = newZombie("Hombie");
     hombie->announce();
 
     // test randomChump

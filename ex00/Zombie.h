@@ -8,13 +8,12 @@ private:
     std::string name;
 
 public:
-    Zombie(std::string name); // string or string& ?
+    Zombie(std::string name);
     ~Zombie();
     void announce(void);
 };
 
-// Function prototypes
-Zombie* newZombie(std::string name);
+Zombie *newZombie(std::string name);
 void randomChump(std::string name);
 
 #endif

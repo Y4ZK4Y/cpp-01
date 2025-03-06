@@ -11,7 +11,7 @@ private:
     void error(void);
 
 public:
-    void complain(std::string level); // takes level of complain
+    void complain(std::string level);
 };
 
 #endif

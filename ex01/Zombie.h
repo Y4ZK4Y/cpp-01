@@ -14,7 +14,6 @@ public:
     void announce(void);
 };
 
-// Function prototypes
-Zombie* zombieHorde(int N, std::string name);
+Zombie *zombieHorde(int N, std::string name);
 
 #endif

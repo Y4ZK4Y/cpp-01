@@ -1,8 +1,3 @@
-
-// use pointers to member functions
-// harl has to complain without a buncha if elses
-// create your tests
-
 #include "Harl.h"
 #include <iostream>
 

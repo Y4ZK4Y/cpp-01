@@ -1,5 +1,6 @@
 #include "parseInput.h"
 #include <iostream>
+
 Input parseInput(int argc, char **argv) {
     Input input;
     if (argc != 4) {

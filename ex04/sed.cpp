@@ -3,7 +3,6 @@
 #include <iostream>
 #include <string>
 
-
 void goodOlSed(const std::string& filename, const std::string& s1, const std::string& s2) {
     std::ifstream inputFile(filename);
     if (!inputFile.is_open()) {
@@ -32,6 +31,4 @@ void goodOlSed(const std::string& filename, const std::string& s1, const std::st
     }
     inputFile.close();
     outputFile.close();
-
-
 }

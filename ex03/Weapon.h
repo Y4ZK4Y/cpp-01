@@ -14,6 +14,4 @@ public:
     void setType(const std::string& type);
 };
 
-// Function prototypes
-
 #endif

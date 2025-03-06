@@ -46,7 +46,6 @@ void Harl::complain(std::string level) {
             break;
         }
     }
-    /*
      // Call the complaint functions based on the level index
     if (levelIndex >= 0) {
         for (int i = levelIndex; i < 4; i++) {
@@ -54,22 +53,5 @@ void Harl::complain(std::string level) {
         }
     } else {
         std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
-    }
-    */
-
-
-    // Call the appropriate complaint function or print an error message
-    switch (levelIndex) {
-        case 0:
-            (this->*complaintFunctions)();
-        case 1:
-            (this->*complaintFunctions)();
-        case 2:
-            (this->*complaintFunctions)();
-        case 3:
-            (this->*complaintFunctions)();
-            break;
-        default:
-            std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
     }
 }
